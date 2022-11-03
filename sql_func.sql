@@ -12,12 +12,12 @@ BEGIN
     DECLARE _n INT;
     DECLARE _x INT;
     DECLARE _strlend INT;
-    SET _CRC := 0xffff;
 
     IF (_STRING IS NULL) THEN
        RETURN NULL;
     END IF;
 
+    SET _CRC := 0xffff;
     SET _n  := 1;  
     SET _strlend := LENGTH(_STRING) ;
           
