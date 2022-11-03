@@ -1,6 +1,6 @@
 # crc16
 
-Implemenation of the CRC16 CCITT-FALSE function for MySQL / MariaDB
+Implemenation of the CRC16 CCITT-FALSE function for MySQL / MariaDB and for php
 
 ```sql
 SELECT HEX(CRC16('bashtest'));
